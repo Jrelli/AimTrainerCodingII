@@ -1,0 +1,34 @@
+{
+    "name": "DefaultInput",
+    "maps": [
+        {
+            "name": "Character",
+            "id": "6ebeafc4-48d8-4fbf-8d5d-ab913b2591e1",
+            "actions": [
+                {
+                    "name": "View",
+                    "type": "PassThrough",
+                    "id": "5e8e747f-42a5-436e-808e-7b061fead0f6",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0c911639-bad8-45c2-92aa-902095dedd7f",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "View",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
